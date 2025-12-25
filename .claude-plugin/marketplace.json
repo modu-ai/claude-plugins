@@ -1,7 +1,11 @@
 {
-  "name": "claude-plugins",
+  "name": "moai-cc-plugins",
   "description": "Collection of Claude Code plugins for various domains",
   "version": "1.0.0",
+  "owner": {
+    "name": "modu-ai",
+    "url": "https://github.com/modu-ai"
+  },
   "author": {
     "name": "modu-ai"
   },
@@ -11,7 +15,7 @@
   "plugins": [
     {
       "name": "moai-security",
-      "path": "plugins/moai-security",
+      "source": "./plugins/moai-security",
       "description": "Auth0 security specialist for attack protection, MFA, token security, and compliance"
     }
   ]
